@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://airductcleaningphoenix.org/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10
+
+# Disallow patterns
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /*?*
+
+# Allow patterns
+Allow: /*.html$
+Allow: /*.htm$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.png$
+Allow: /*.css$
+Allow: /*.js$
